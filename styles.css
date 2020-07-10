@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(./img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eae9eec1;
+  padding: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.logo h2 a {
+  color: #cd5050;
+  font-weight: bolder;
+}
+
+.menu-toggle {
+  position: absolute;
+  right: 1em;
+  top: 0.9em;
+  display: none;
+  flex-direction: column;
+  background-color: #eae9eec1;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: space-evenly;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.menu-toggle:hover {
+  background-color: #b4b4b5d9;
+}
+
+.menu-toggle .bar {
+  width: 90%;
+  height: 3px;
+  border-radius: 60px;
+  background-color: black;
+  margin: auto;
+}
+
+.navbar-ul {
+  display: flex;
+}
+
+.navbar-ul li {
+  padding-right: 20px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.navbar-ul li a {
+  color: #0a0a0a;
+}
+
+.navbar-ul li a:hover {
+  color: #cd5050;
+  transition: all 0.2s ease;
+}
+
+.container-home-text {
+  width: 37%;
+  font-size: 25px;
+  color: #eae9ee;
+  background-color: #cd5050db;
+  padding: 30px;
+  border-radius: 45px;
+  margin-top: 120px;
+  margin-left: 250px;
+}
+
+.container-home-text p {
+  margin-top: 20px;
+}
+
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .navbar-links {
+    width: 100%;
+    
+  }
+
+  .navbar-ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  justify-content: space-evenly;
+  }
+
+  .links-active {
+    display: flex;
+  }
+
+  .navbar-ul li {
+    padding: 20px;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .container-home-text {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container-home-text {
+    width: 65%;
+    margin: auto;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+}
