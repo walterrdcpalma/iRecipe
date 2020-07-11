@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/searchC.css">
+  <title>iRecipe</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <h2><a href="index.html">iRecipe</a></h2>
+    </div>
+    <div class="menu-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <div class="navbar-links">
+      <ul class="navbar-ul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="searchC.html">Search Recipes</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="search-container">
+    <div class="search-type">
+      <h3>Search by: Cuisine</h3>
+
+    </div>
+
+    <div class="form-container">
+      <form action="">
+        <label class="search-label" for="recipe">Recipe:</label>
+        <input class="search-input-text" type="text" name="recipe" id="recipe" placeholder="Ex: Pizza">
+        <label class="search-label" for="cuisine">Cuisine:</label>
+        <input class="search-input-text" type="text" name="cuisine" id="cuisine" placeholder="Ex: Italian">
+        <label class="search-label" for="diet">Diet:</label>
+        <input class="search-input-text" type="text" name="diet" id="diet" placeholder="Ex: Vegeterian">
+        <label class="search-label" for="exclude">Exclude Ingredients:</label>
+        <input class="search-input-text" type="text" name="exclude" id="exclude" placeholder="Ex: Carrot, Egg">
+        <label class="search-label" for="intolerance">Intolerance:</label>
+
+
+        <div class="intolerance-cb-container">
+
+
+          <div class="int-column">
+
+
+            <div class="int-row"><label for="egg">egg</label>
+              <input class="search-input-cb" type="checkbox" id="egg" name="egg" value="egg"></div>
+            <div class="int-row"><label for="dairy">dairy</label>
+              <input class="search-input-cb" type="checkbox" id="dairy" name="dairy" value="dairy"></div>
+            <div class="int-row"><label for="peanut">peanut</label>
+              <input class="search-input-cb" type="checkbox" id="peanut" name="peanut" value="peanut"></div>
+            <div class="int-row"><label for="milk">milk</label>
+              <input class="search-input-cb" type="checkbox" id="milk" name="milk" value="milk"></div>
+
+
+          </div>
+
+
+
+          <div class="int-column">
+
+
+            <div class="int-row"><label for="sesame">sesame</label>
+              <input class="search-input-cb" type="checkbox" id="sesame" name="sesame" value="sesame"></div>
+
+            <div class="int-row"><label for="seafood">seafood</label>
+              <input class="search-input-cb" type="checkbox" id="seafood" name="seafood" value="seafood"></div>
+
+            <div class="int-row"><label for="shellfish">shellfish</label>
+              <input class="search-input-cb" type="checkbox" id="shellfish" name="shellfish" value="shellfish"></div>
+
+            <div class="int-row"><label for="soy">soy</label>
+              <input class="search-input-cb" type="checkbox" id="soy" name="soy" value="soy"></div>
+
+          </div>
+          <div class="int-column">
+            <div class="int-row"><label for="sulfite">sulfite</label>
+              <input class="search-input-cb" type="checkbox" id="sulfite" name="sulfite" value="sulfite"></div>
+
+            <div class="int-row"><label for="treenut">treenut</label>
+              <input class="search-input-cb" type="checkbox" id="treenut" name="treenut" value="treenut"></div>
+
+            <div class="int-row"><label for="wheat">wheat</label>
+              <input class="search-input-cb" type="checkbox" id="wheat" name="wheat" value="wheat"></div>
+
+          </div>
+        </div>
+
+
+
+        <label class="search-label" for="type">Type:</label>
+        <div class="intolerance-cb-container">
+
+
+          <div class="int-column">
+
+
+            <div class="int-row"><label for="main course">main</label>
+              <input class="search-input-cb" type="checkbox" id="main-course" name="main-course" value="main course">
+            </div>
+
+            <div class="int-row"><label for="side dish">side dish</label>
+              <input class="search-input-cb" type="checkbox" id="side-dish" name="side-dish" value="side dish"></div>
+
+            <div class="int-row"><label for="dessert">dessert</label>
+              <input class="search-input-cb" type="checkbox" id="dessert" name="dessert" value="dessert"></div>
+
+            <div class="int-row"><label for="appetizer">appetizer</label>
+              <input class="search-input-cb" type="checkbox" id="appetizer" name="appetizer" value="appetizer"></div>
+
+
+          </div>
+
+
+
+          <div class="int-column">
+
+
+            <div class="int-row"><label for="salad">salad</label>
+              <input class="search-input-cb" type="checkbox" id="salad" name="salad" value="salad"></div>
+
+            <div class="int-row"><label for="bread">bread</label>
+              <input class="search-input-cb" type="checkbox" id="bread" name="bread" value="bread"></div>
+
+            <div class="int-row"><label for="breakfast">breakfast</label>
+              <input class="search-input-cb" type="checkbox" id="breakfast" name="breakfast" value="breakfast"></div>
+
+            <div class="int-row"><label for="soup">soup</label>
+              <input class="search-input-cb" type="checkbox" id="soup" name="soup" value="soup"></div>
+
+          </div>
+          <div class="int-column">
+            <div class="int-row"><label for="beverage">beverage</label>
+              <input class="search-input-cb" type="checkbox" id="beverage" name="beverage" value="beverage"></div>
+
+            <div class="int-row"><label for="sauce">sauce</label>
+              <input class="search-input-cb" type="checkbox" id="sauce" name="sauce" value="sauce"></div>
+
+            <div class="int-row"><label for="drink">drink</label>
+              <input class="search-input-cb" type="checkbox" id="drink" name="drink" value="drink"></div>
+
+          </div>
+        </div>
+        <button class="search-btn">Search</button>
+
+    </div>
+
+
+
+
+    </form>
+  </div>
+
+
+  </div>
+
+
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
