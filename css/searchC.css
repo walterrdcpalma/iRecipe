@@ -8,11 +8,13 @@ body {
   justify-content: space-between;
   width: 90%;
   margin: auto;
-  margin-top: 25px;
+  padding-bottom: 50px;
 }
 
 .search-type {
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
 }
 
 .form-container {
@@ -107,6 +109,13 @@ form {
   padding-right: 20px;
 }
 
+.recipe-container-toggle {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  margin-top: 30px;
+}
+
 .recipe-text {
   width: 60%;
 }
@@ -148,12 +157,13 @@ form {
 }
 
 .recipe-image img {
-  width: 90%;
+  width: 200px;
   margin: auto;
   border-radius: 20px;
 }
 
-#inst-tag{
+#inst-tag {
+  width: 100%;
   margin: auto;
   text-align: center;
   margin-top: 10px;
@@ -164,10 +174,9 @@ form {
   color: #c4c4c4;
 }
 
-.left-right-btn p:hover{
+.left-right-btn p:hover {
   color: #c4c4c4;
   cursor: pointer;
-
 }
 
 .left-right-btn {
