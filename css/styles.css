@@ -84,6 +84,7 @@ body {
 }
 
 .container-home-text {
+  position: relative;
   width: 37%;
   font-size: 25px;
   color: #eae9ee;
@@ -96,6 +97,29 @@ body {
 
 .container-home-text p {
   margin-top: 20px;
+}
+
+.start-btn{
+  width: 90px;
+  height: 25px;
+  border-radius: 20px;
+  border-style: solid;
+  border: none;
+  position: absolute;
+  background-color: #eae9eede;
+  font-weight: 600;
+  cursor: pointer;
+  bottom: 1em;
+  right: 2em;
+  
+}
+
+.start-btn:hover{
+  background-color: #eae9ee;
+}
+
+.start-btn a{
+  color: #cd5050;
 }
 
 @media (max-width: 575.98px) {

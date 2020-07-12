@@ -52,7 +52,8 @@ form {
   margin-top: 3px;
 }
 
-.form-container input:focus {
+.form-container input:focus,
+.search-btn:focus {
   outline: none;
 }
 
@@ -88,9 +89,6 @@ form {
   font-weight: 600;
   cursor: pointer;
   margin-top: 8px;
-  position: absolute;
-  bottom: 20;
-  right: 0;
 }
 
 .form-container .search-btn:hover {
